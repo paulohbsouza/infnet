@@ -1,8 +1,19 @@
-# React + Vite
+# Bloco: Front-End com React
+## Disciplina: Projeto de Interfaces com React
+#
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1 - Criação de layout:
 
-Currently, two official plugins are available:
+Crie um layout utilizando header, content e footer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2 - Importação de imagem:
+
+Importe imagens para representar o logo e o banner da aplicação.
+
+3 - Criação de formulário:
+
+Utilize o reactstrap na criação de um formulário pré-processado. Crie um componente combo através de um arquivo json, e defina um tipo de feedback com os dados.
+
+4 - Definir validação:
+
+Crie uma pequena validação na entrada dos dados preenchidos no formulário.
