@@ -1,6 +1,5 @@
 # Bloco: Front-End com React
 ## Disciplina: Projeto de Interfaces com React
-#
 
 1 - Criação de layout:
 
