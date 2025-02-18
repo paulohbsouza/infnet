@@ -1,8 +1,10 @@
 
 export const Footer = () => {
     return (
-        <>
-            FFFf
-        </>
+        <footer>
+            <div className="container debug">
+                Footer
+            </div>
+        </footer>
     );
 }

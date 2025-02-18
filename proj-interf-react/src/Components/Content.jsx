@@ -1,8 +1,10 @@
 
 export const Content = () => {
     return (
-        <>
-            CCCCcc
-        </>
+        <main>
+            <div className="container debug">
+                Content
+            </div>
+        </main>
     );
 }

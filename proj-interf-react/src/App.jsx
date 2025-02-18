@@ -5,9 +5,7 @@ import {Footer} from "./Components/Footer.jsx";
 const App = () => {
   return (
     <>
-        <div className="header debug">
-            <Header/>
-        </div>
+        <Header/>
         <Content/>
         <Footer/>
     </>
