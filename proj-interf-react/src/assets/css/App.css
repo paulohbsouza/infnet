@@ -3,17 +3,27 @@
     background: #8CDDBA;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F2C94C, #8CDDBA);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F2C94C, #8CDDBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 11dvh;
+    height: 8dvh;
 }
 
 .header img {
-    max-width: 140px;
+    max-width: 80px;
+}
+
+.footer {
+    height: 14dvh;
+    background-color: #212121;
+    color: #fff;
+    font-family: "Delius", serif;
+    font-size: .75rem;
+}
+
+.footer img {
+    max-width: 40px;
 }
 
 .my_nav {
     margin: 60px auto;
-    font-family: "Atma", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 2rem;
+    font-family: "Delius", serif;
+    font-size: 1.5rem;
 }

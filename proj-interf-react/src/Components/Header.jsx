@@ -12,10 +12,10 @@ export const Header = () => {
                 <div className="container text-center my_nav">
                     <div className="row align-items-center text-dark">
                         <div className="col">
-                            lion form aplication
+                            lion form app
                         </div>
                         <div className="col">
-                            start | form | about
+                            start | feedback | about
                         </div>
                     </div>
                 </div>
