@@ -51,13 +51,14 @@ export const Select = ({setFilter}) => {
             <FormGroup>
                 {regiao.length > 0 ? (
                     <>
-                        <Label for="regionSelect">Selecione a região</Label>
-                        <Input required
-                               id="regionSelect"
+                        <Label for="regionSelect">Selecione a região<span className="text-danger">*</span></Label>
+                        <Input id="regionSelect"
                                bsSize="lg"
                                name="select"
                                type="select"
-                               onChange={(e) => setFilter(e.target.value)}>
+                               onChange={(e) => {
+                                   setFilter !== undefined && setFilter(e.target.value);
+                               }}>
                             <option value="">Selecione...</option>
                             {regiao.length && (
                                 regiao.map((item, index) => (
@@ -71,7 +72,6 @@ export const Select = ({setFilter}) => {
                         Que pena. A lista de região esta vazia! =/
                     </Alert>
                 )}
-
             </FormGroup>
         </>
     );
