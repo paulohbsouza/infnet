@@ -16,3 +16,13 @@ Utilize o reactstrap na criação de um formulário pré-processado. Crie um com
 4 - Definir validação:
 
 Crie uma pequena validação na entrada dos dados preenchidos no formulário.
+
+___________________________________
+
+Requisitos para instalação:
+- Node v22
+- Npm v10
+
+Comandos
+- Executar: npm install
+- Executar: npm run dev
