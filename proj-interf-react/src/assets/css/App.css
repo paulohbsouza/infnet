@@ -9,8 +9,6 @@ main {
     height: 64dvh;
     overflow: auto;
     padding: 2rem 0;
-
-    border: 1px solid purple;
 }
 
 ::-webkit-scrollbar-track {
